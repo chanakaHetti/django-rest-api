@@ -10,3 +10,8 @@
 create the file as `requirements.txt`
 then run `pip install -r requirements.txt`
 pip upgrade if want, `pip install --upgrade pip`
+
+#### Product table data insert using python shell
+`python manage.py shell`
+`from products.models import Product`
+`Product.objects.create(title="Hello world again", content="this is amazing", price="20.00")`
